@@ -11,7 +11,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='hello_world',
+    dag_id='hello_airflow',
     default_args=default_args,
     description='A simple Hello World DAG',
     schedule=None,     # manual trigger only, changed from schedule_interval
